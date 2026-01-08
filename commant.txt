@@ -1,0 +1,14 @@
+echo "# my-first-repository" >> README.md     // not used this line
+git init
+git add README.md // not used that
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nahidsoft/my-first-repository.git
+git push -u origin main
+
+============
+
+git remote add origin https://github.com/nahidsoft/my-first-repository.git
+git branch -M main
+git push -u origin main
