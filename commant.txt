@@ -1,10 +1,11 @@
-echo "# my-first-repository" >> README.md     // not used this line
-git init
-git add README.md // not used that
+#echo "# my-first-repository" >> README.md     // not used this line
+git init //used in one time in one project
+#git add README.md // not used that
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/nahidsoft/my-first-repository.git
+git remote add origin https://github.com/nahidsoft/my-first-repository.git //used in one time in one project
+
 git push -u origin main
 
 ============
